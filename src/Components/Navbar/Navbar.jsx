@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex justify-center items-center">
                     <img className="w-[55px] h-[50px]" src="/logo.png" alt="" />
-                    <Link className="text-3xl font-extrabold text-blue-300"><span className="text-emerald-500">Health</span>care</Link>
+                    <Link className="text-xl lg:text-3xl font-bold lg:font-extrabold text-blue-300"><span className="text-emerald-500">Health</span>care</Link>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -51,7 +51,7 @@ const Navbar = () => {
                     ))}
                 </ul>
             </div>
-            <div className="navbar-end gap-5">
+            <div className="navbar-end lg:gap-5">
                 <button className="btn btn-outline border-none hover:bg-emerald-500 text-lg font-semibold">Sing in</button>
                 <button className="btn btn-outline border-none hover:bg-emerald-500 text-lg font-semibold">Sign up</button>
             </div>
