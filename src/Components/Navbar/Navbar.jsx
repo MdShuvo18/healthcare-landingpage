@@ -37,20 +37,23 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <h1 className="text-4xl font-semibold">Healthcare</h1>
+                <div className="flex justify-center items-center">
+                    <img className="w-[55px] h-[50px]" src="/logo.png" alt="" />
+                    <Link className="text-3xl font-extrabold text-blue-300"><span className="text-emerald-500">Health</span>care</Link>
+                </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     {links.map((link) => (
-                        <a key={link.path} >
-                            <Link className="hover:text-blue-300 hover:text-lg hover:font-semibold hover:border-b-2 ml-3" to={link.path}>{link.title}</Link>
+                        <a key={link.path} className="text-xl">
+                            <Link className="hover:text-blue-300 hover:text-2xl hover:font-semibold hover:border-b-2 ml-3" to={link.path}>{link.title}</Link>
                         </a>
                     ))}
                 </ul>
             </div>
             <div className="navbar-end gap-5">
-                <button className="btn btn-outline hover:bg-emerald-500">Sing in</button>
-                <button className="btn btn-outline hover:bg-emerald-500">Sign up</button>
+                <button className="btn btn-outline border-none hover:bg-emerald-500 text-lg font-semibold">Sing in</button>
+                <button className="btn btn-outline border-none hover:bg-emerald-500 text-lg font-semibold">Sign up</button>
             </div>
         </div>
     );
