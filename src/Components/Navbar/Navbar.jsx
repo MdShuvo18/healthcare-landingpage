@@ -1,6 +1,14 @@
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+    const links = [
+        { title: "Home", path: "/" },
+        { title: "Services", path: "" },
+        { title: "Contact us", path: "" },
+        { title: "Help", path: "" },
+        { title: "Blogs", path: "" },
+    ];
+
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
@@ -22,36 +30,27 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        {links.map((link) => (
+                            <a key={link.path} >
+                                <Link className="hover:text-blue-300 hover:text-lg hover:font-semibold hover:border-b-2 ml-3" to={link.path}>{link.title}</Link>
+                            </a>
+                        ))}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <h1 className="text-4xl font-semibold">Healthcare</h1>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                    {links.map((link) => (
+                        <a key={link.path} >
+                            <Link className="hover:text-blue-300 hover:text-lg hover:font-semibold hover:border-b-2 ml-3" to={link.path}>{link.title}</Link>
+                        </a>
+                    ))}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end gap-5">
+                <button className="btn btn-outline hover:bg-emerald-500">Sing in</button>
+                <button className="btn btn-outline hover:bg-emerald-500">Sign up</button>
             </div>
         </div>
     );

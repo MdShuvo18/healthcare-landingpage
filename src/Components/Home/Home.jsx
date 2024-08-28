@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            This is home
+            Health care home
             <Footer></Footer>
         </div>
     );
