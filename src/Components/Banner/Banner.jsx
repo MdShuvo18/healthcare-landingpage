@@ -3,8 +3,8 @@ import { FaRegPlayCircle } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className="hero">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero ">
+            <div className="hero-content w-full flex-col lg:flex-row-reverse">
                 <img
                     src="/banner.png"
                     className="max-w-sm rounded-lg w-[627px] h-[326px]" />
@@ -13,10 +13,10 @@ const Banner = () => {
                         <br />
                         <span className="text-emerald-500">Brighter</span> And <span className="text-emerald-500">Healthy</span> Future</h1>
                     <div className="">
-                        <p className="py-6">
+                        <p className="py-6 text-start">
                             At our hospital, we are dedicated to providing exceptional medical care to our patients
-                            <br />
-                            and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in the healthcare industry
+                            
+                            and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in  the healthcare industry
                         </p>
                     </div>
                     <div className="flex">
