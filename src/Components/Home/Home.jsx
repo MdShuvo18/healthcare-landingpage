@@ -4,6 +4,7 @@ import Find from "../FindADoctor/Find";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import OurResultSection from "../OurResultSection/OurResultSection";
+import ServicesSection from "../ServicesSection/ServicesSection";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Find></Find>
             <OurResultSection></OurResultSection>
             <ChooseUsSection></ChooseUsSection>
+            <ServicesSection></ServicesSection>
             <Footer></Footer>
         </div>
     );

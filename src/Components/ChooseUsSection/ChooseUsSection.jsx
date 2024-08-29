@@ -3,7 +3,7 @@ import chooseUs from '../../assets/images/choose-us.png'
 
 const ChooseUsSection = () => {
     return (
-        <div className='mt-32 container mx-auto flex gap-32'>
+        <div className='container mx-auto flex flex-col-reverse md:flex-row gap-8 md:gap-32 md:pt-32'>
             <div className='space-y-12 flex flex-col justify-center'>
                 <div className='space-y-4'>
                     <h1 className='text-4xl font-bold'>You have lots of reasons to choose us</h1>
@@ -15,7 +15,7 @@ const ChooseUsSection = () => {
                 </div>
             </div>
             <div>
-                <img src={chooseUs} alt=""/>
+                <img src={chooseUs} alt="" />
             </div>
         </div>
     );
