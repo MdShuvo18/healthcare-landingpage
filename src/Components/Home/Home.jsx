@@ -6,6 +6,7 @@ import Navbar from "../Navbar/Navbar";
 import OurResultSection from "../OurResultSection/OurResultSection";
 import ServicesSection from "../ServicesSection/ServicesSection";
 import Testimonial from "../Testimonial/Testimonial";
+import TrustedCompanySection from "../TrustedCompanySection";
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <ServicesSection></ServicesSection>
 
             <Testimonial></Testimonial>
+            <TrustedCompanySection></TrustedCompanySection>
             <Footer></Footer>
         </div>
     );
