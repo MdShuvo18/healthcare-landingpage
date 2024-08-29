@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import OurResultSection from "../OurResultSection/OurResultSection";
 import ServicesSection from "../ServicesSection/ServicesSection";
+import Testimonial from "../Testimonial/Testimonial";
 
 
 const Home = () => {
@@ -16,6 +17,8 @@ const Home = () => {
             <OurResultSection></OurResultSection>
             <ChooseUsSection></ChooseUsSection>
             <ServicesSection></ServicesSection>
+
+            <Testimonial></Testimonial>
             <Footer></Footer>
         </div>
     );

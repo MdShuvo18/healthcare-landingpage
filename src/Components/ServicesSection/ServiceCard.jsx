@@ -1,5 +1,4 @@
 import React from 'react';
-import arrow from '../../assets/arrow.svg'
 
 const ServiceCard = ({ image, title, description }) => {
     return (
