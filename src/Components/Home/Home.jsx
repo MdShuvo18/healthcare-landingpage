@@ -3,6 +3,7 @@ import ChooseUsSection from "../ChooseUsSection/ChooseUsSection";
 import Find from "../FindADoctor/Find";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import NewsletterSection from "../NewsletterSection";
 import OurResultSection from "../OurResultSection/OurResultSection";
 import ServicesSection from "../ServicesSection/ServicesSection";
 import Testimonial from "../Testimonial/Testimonial";
@@ -21,6 +22,7 @@ const Home = () => {
 
             <Testimonial></Testimonial>
             <TrustedCompanySection></TrustedCompanySection>
+            <NewsletterSection></NewsletterSection>
             <Footer></Footer>
         </div>
     );
