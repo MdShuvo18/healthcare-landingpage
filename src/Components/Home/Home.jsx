@@ -8,7 +8,7 @@ import OurResultSection from "../OurResultSection/OurResultSection";
 
 const Home = () => {
     return (
-        <div>
+        <div className="space-y-10">
             <Navbar></Navbar>
             <Banner></Banner>
             <Find></Find>
