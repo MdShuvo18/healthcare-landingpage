@@ -7,9 +7,9 @@ import CustomerSaysPage from './CustomerSaysPage';
 const ServicesPage = () => {
     return (
         <div>
-            <ServicePageBaner></ServicePageBaner>,
-            <ServicePageFindDoctor></ServicePageFindDoctor>,
-            <ServicesSection></ServicesSection>,
+            <ServicePageBaner></ServicePageBaner>
+            <ServicePageFindDoctor></ServicePageFindDoctor>
+            <ServicesSection></ServicesSection>
             <CustomerSaysPage></CustomerSaysPage>
             
         </div>
