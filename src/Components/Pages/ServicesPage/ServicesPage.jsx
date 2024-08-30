@@ -1,9 +1,12 @@
 import React from 'react';
+import ServicePageBaner from './ServicePageBaner';
+import ServicePageFindDoctor from './ServicePageFindDoctor';
 
 const ServicesPage = () => {
     return (
         <div>
-            <h1>Service page.</h1>
+            <ServicePageBaner></ServicePageBaner>,
+            <ServicePageFindDoctor></ServicePageFindDoctor>
         </div>
     );
 };
