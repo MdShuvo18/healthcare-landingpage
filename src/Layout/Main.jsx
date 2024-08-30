@@ -5,10 +5,10 @@ import Footer from "../Components/Footer/Footer";
 const Main = () => {
     return (
         <div>
-            <div className="container mx-auto">
+            <main>
                 <Navbar></Navbar>
                 <Outlet></Outlet>
-            </div>
+            </main>
             <Footer></Footer>
         </div>
     );
