@@ -2,7 +2,7 @@ import React from 'react';
 
 const TestimonialCard = ({title, image, designation, comment, name}) => {
     return (
-        <div className='bg-white p-10 border-2 rounded-2xl'>
+        <div className='max-w-96 bg-white p-10 border-2 rounded-2xl'>
             <div>
                 <img src={image} alt="" />
             </div>

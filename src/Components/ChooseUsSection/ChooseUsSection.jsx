@@ -11,9 +11,9 @@ const ChooseUsSection = () => {
                     <h1 className='text-4xl font-bold'>You have lots of reasons to choose us</h1>
                     <p className='text-secondary-gray'>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
                 </div>
-                <div className='space-x-6'>
-                    <button className='px-9 py-6 bg-primary-cyan text-white rounded-full font-bold text-lg'>Get started</button>
-                    <button className='px-9 py-6 border-2 rounded-full bg-white text-lg text-primary-cyan'>Talk to sales</button>
+                <div className='flex gap-4'>
+                    <button className='px-5 py-3 md:px-9 md:py-6 bg-primary-cyan text-white rounded-full font-bold md:text-lg'>Get started</button>
+                    <button className='px-5 py-3 md:px-9 md:py-6 border-2 rounded-full bg-white text-lg text-primary-cyan'>Talk to sales</button>
                 </div>
             </div>
             <div>

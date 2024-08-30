@@ -40,7 +40,7 @@ const Testimonial = () => {
                     subText={"Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero accumsan."}
                 ></Headings>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-7 mt-8 md:mt-12'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-7 mt-8 md:mt-12 justify-items-center'>
                 {
                     testimonials.map(testimonial =>
                         <TestimonialCard

@@ -1,38 +1,25 @@
-import { FaRegPlayCircle } from "react-icons/fa";
-
-
 const Banner = () => {
     return (
-        <div className="hero ">
-            <div className="hero-content w-full flex-col lg:flex-row-reverse">
+        <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="flex flex-col justify-center font-lato">
+                <h1 className="text-4xl font-semibold">Providing Quality <span className="text-primary-cyan">Healthcare</span> For A
+                    <br />
+                    <span className="text-yellow-green">Brighter</span> And <span className="text-yellow-green">Healthy</span> Future</h1>
+                <div className="">
+                    <p className="py-6 text-start">
+                        At our hospital, we are dedicated to providing exceptional medical care to our patients
+
+                        and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in  the healthcare industry
+                    </p>
+                </div>
+                <div className="flex flex-col md:flex-row md:mt-24">
+                  <button className="text-lg px-10 py-2 font-medium bg-primary-cyan text-white rounded-lg">Appointments</button>
+                </div>
+            </div>
+            <div className="flex justify-end">
                 <img
                     src="/banner.png"
-                    className="max-w-sm rounded-lg w-[627px] h-[326px]" />
-                <div>
-                    <h1 className="text-4xl font-semibold">Providing Quality <span className="text-blue-300">Healthcare</span> For A
-                        <br />
-                        <span className="text-emerald-500">Brighter</span> And <span className="text-emerald-500">Healthy</span> Future</h1>
-                    <div className="">
-                        <p className="py-6 text-start">
-                            At our hospital, we are dedicated to providing exceptional medical care to our patients
-                            
-                            and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in  the healthcare industry
-                        </p>
-                    </div>
-                    <div className="flex">
-                        <a href="#_" className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-emerald-300 rounded-full shadow-md group">
-                            <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-emerald-300 group-hover:translate-x-0 ease">
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                            </span>
-                            <span className="absolute flex items-center justify-center w-full h-full text-blue-300 font-extrabold transition-all duration-300 transform group-hover:translate-x-full ease">Appiontments</span>
-                            <span className="relative invisible">Appiontments</span>
-                        </a>
-                        <div className="flex items-center gap-3 ml-16">
-                            <FaRegPlayCircle className="text-2xl text-emerald-300" />
-                            <a className="text-xl font-semibold">Watch Video</a>
-                        </div>
-                    </div>
-                </div>
+                    className="rounded-lg" />
             </div>
         </div>
     );

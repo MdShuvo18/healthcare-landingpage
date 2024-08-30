@@ -10,7 +10,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -52,8 +52,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end lg:gap-5">
-                <button className="btn btn-outline border-none hover:bg-emerald-500 text-lg font-semibold">Sing in</button>
-                <button className="btn btn-outline border-none hover:bg-emerald-500 text-lg font-semibold">Sign up</button>
+                <button className="rounded-2xl border-2 border-primary-cyan  text-primary-cyan text-xl font-bold md:px-10 md:py-3">Sing Up</button>
+                <button className="rounded-2xl bg-primary-cyan text-white text-xl font-bold md:px-10 md:py-3">Log In</button>
             </div>
         </div>
     );

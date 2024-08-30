@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceCard = ({ image, title, description }) => {
     return (
-        <div className='bg-white p-6 rounded-2xl'>
+        <div className='max-w-96 bg-white p-6 rounded-2xl'>
             <div className='flex justify-center'>
                 <img src={image} alt={title} className='w-[345px] h-[220px] rounded-xl' />
             </div>

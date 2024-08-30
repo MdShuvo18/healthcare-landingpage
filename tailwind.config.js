@@ -8,8 +8,12 @@ export default {
     extend: {
       colors: {
         "primary-cyan" : "#007E85",
-        "secondary-gray" : "#555555"
+        "secondary-gray" : "#555555",
+        "yellow-green" : "#6EAB36"
       },
+      fontFamily: {
+        lato : ["Lato", "sans-serif"]
+      }
     },
   },
   plugins: [
