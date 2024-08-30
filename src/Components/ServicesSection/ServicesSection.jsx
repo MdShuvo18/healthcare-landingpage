@@ -51,7 +51,7 @@ const ServicesSection = () => {
                     subText={"Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero accumsan."}
                 ></Headings>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-3 mt-8 md:mt-16 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-3 mt-8 md:mt-16 gap-6 justify-items-center'>
                 {
                     services.map((service) => 
                     <ServiceCard
