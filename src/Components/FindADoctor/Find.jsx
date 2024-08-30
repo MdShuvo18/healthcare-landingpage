@@ -2,7 +2,7 @@
 
 const Find = () => {
     return (
-        <div className="lg:p-14  bg-slate-200 rounded-lg ">
+        <div className="lg:p-14 rounded-lg " style={{background:'rgba(250, 250, 250, 1)'}}>
             <h1 className="text-2xl font-bold mb-4">Find A Doctor</h1>
             <form className="">
                 <div className="lg:space-x-12">
