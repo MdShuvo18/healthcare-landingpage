@@ -3,7 +3,7 @@ import chooseUs from '../../assets/images/choose-us.png'
 
 const ChooseUsSection = () => {
     return (
-        <div className='mt-32 container mx-auto flex gap-32'>
+        <div className='mt-32 container mx-auto flex flex-col lg:flex-row gap-32'>
             <div className='space-y-12 flex flex-col justify-center'>
                 <div className='space-y-4'>
                     <h1 className='text-4xl font-bold'>You have lots of reasons to choose us</h1>
