@@ -5,9 +5,12 @@ import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import NewsletterSection from "../NewsletterSection";
 import OurResultSection from "../OurResultSection/OurResultSection";
+
 import ServicesSection from "../ServicesSection/ServicesSection";
 import Testimonial from "../Testimonial/Testimonial";
 import TrustedCompanySection from "../TrustedCompanySection";
+import TeamMembers from "../TeamMembers/TeamMembers";
+
 
 
 const Home = () => {
@@ -18,11 +21,15 @@ const Home = () => {
             <Find></Find>
             <OurResultSection></OurResultSection>
             <ChooseUsSection></ChooseUsSection>
-            <ServicesSection></ServicesSection>
 
+            <ServicesSection></ServicesSection>
+    <TeamMembers></TeamMembers>
             <Testimonial></Testimonial>
             <TrustedCompanySection></TrustedCompanySection>
             <NewsletterSection></NewsletterSection>
+
+        
+
             <Footer></Footer>
         </div>
     );
