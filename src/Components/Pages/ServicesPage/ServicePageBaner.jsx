@@ -3,11 +3,10 @@
 const ServicePageBaner = () => {
     return (
         <div
-            className="hero min-h-screen"
+            className="hero min-h-screen bg-gradient-to-br"
             style={{
                 backgroundImage: "url(https://s3-alpha-sig.figma.com/img/29a1/83e9/4cfaa1c70f9923b9dff53e831733a031?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=beZsp3A6lZrICrkdFZ8Wqo6qKfz5ryyAdWPRnFhlAIucjY9B8nsszDrg-uZpBIzzeI3S0HqkteFDwYT~lgLzBo2efBo~Kei0a7~iH63tpl5vCjrNeWXwbyuP5mp3papZe4dFHmayIHSFqI-ECmqYKp3h~FIPn7Gc-aX6S919NnQ69Fi~fu4BaQ7Ez7nAu1AFMemtuGaJQ~GdT5fz8nBnrBIAHIfNdePM2-iYbqTt240xSYHLv42tgVzuxcXfnAKr~KTB5wTGbuAaafGI4SyVTfEUqd2n-DBsDQdL-ASXhbUCxiDfMxpFrydkAnihtaHzbBCt6V7EkWmhwvWaU0Z6HA__)",
             }}>
-            <div className=""></div>
             <div className="">
                 <div className="flex flex-col lg:flex-row justify-between items-center">
                     <div className='w-1/2'>
