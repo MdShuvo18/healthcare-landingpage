@@ -16,7 +16,7 @@ const ChooseUsSection = () => {
                     <button className='px-5 py-3 md:px-9 md:py-6 border-2 rounded-full bg-white text-lg text-primary-cyan'>Talk to sales</button>
                 </div>
             </div>
-            <div>
+            <div className='mt-6 md:mt-0'>
                 <img src={chooseUs} alt="" />
             </div>
         </div>

@@ -2,14 +2,12 @@ import React from 'react';
 import Headings from '../../SharedComponent/Headings';
 import ReactStars from "react-rating-stars-component";
 
-
-
 const CustomerSaysPage = () => {
 
     const ratingChanged = (newRating) => {
         console.log(newRating);
-        
     };
+
     return (
         <div>
             <Headings
