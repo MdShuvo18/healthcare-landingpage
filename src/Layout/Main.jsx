@@ -7,7 +7,7 @@ const Main = () => {
         <div>
             <main>
                 <Navbar></Navbar>
-                <div className="min-h-[calc(100vh-468px)]">
+                <div className="">
                     <Outlet></Outlet>
                 </div>
             </main>

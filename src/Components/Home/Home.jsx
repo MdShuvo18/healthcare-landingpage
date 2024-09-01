@@ -19,7 +19,6 @@ const Home = () => {
                 <Find></Find>
                 <OurResultSection></OurResultSection>
                 <ChooseUsSection></ChooseUsSection>
-
                 <ServicesSection></ServicesSection>
                 <TeamMembers></TeamMembers>
                 <Testimonial></Testimonial>
