@@ -15,3 +15,8 @@ main {
   max-width: 80%;
   margin: 0 auto;
 }
+
+.active {
+  border-bottom: 5px;
+  border-color: #007E85;
+}
