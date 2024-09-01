@@ -11,7 +11,6 @@ const ServicesPage = () => {
             <ServicePageFindDoctor></ServicePageFindDoctor>
             <ServicesSection></ServicesSection>
             <CustomerSaysPage></CustomerSaysPage>
-            
         </div>
     );
 };

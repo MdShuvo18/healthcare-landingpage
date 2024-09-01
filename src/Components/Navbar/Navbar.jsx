@@ -29,7 +29,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-full p-2 shadow">
                         {links.map((link) => (
                             <a key={link.path} >
                                 <Link className="hover:text-blue-300 hover:text-lg hover:font-semibold hover:border-b-2 ml-3" to={link.path}>{link.title}</Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex justify-center items-center">
                     <img className="w-[55px] h-[50px]" src="/logo.png" alt="" />
-                    <Link className="text-xl lg:text-3xl font-bold lg:font-extrabold"><span className="text-primary-cyan">Health</span>care</Link>
+                    <Link className="text-xl lg:text-3xl font-bold lg:font-extrabold text-yellow-green"><span className="text-primary-cyan">Health</span>care</Link>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -51,9 +51,9 @@ const Navbar = () => {
                     ))}
                 </ul>
             </div>
-            <div className="navbar-end lg:gap-5">
-                <button className="rounded-2xl border-2 border-primary-cyan  text-primary-cyan text-xl font-bold md:px-10 md:py-3">Sing Up</button>
-                <button className="rounded-2xl bg-primary-cyan text-white text-xl font-bold md:px-10 md:py-3">Log In</button>
+            <div className="navbar-end lg:gap-5 md:mt-7">
+                <button className="rounded-2xl border-2 border-primary-cyan  text-primary-cyan md:text-xl p-2 font-bold md:px-10 md:py-3">Sing Up</button>
+                <button className=" hidden md:inline-block rounded-2xl bg-primary-cyan text-white md:text-xl font-bold md:px-10 p-2 md:py-3">Log In</button>
             </div>
         </div>
     );
