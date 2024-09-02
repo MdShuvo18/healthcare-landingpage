@@ -4,6 +4,7 @@ import ServicePageFindDoctor from './ServicePageFindDoctor';
 import ServicesSection from '../../ServicesSection/ServicesSection';
 import CustomerSaysPage from './CustomerSaysPage';
 import FAQ from './FAQ';
+import NewsletterSection from '../../NewsletterSection';
 
 const ServicesPage = () => {
     return (
@@ -13,6 +14,7 @@ const ServicesPage = () => {
             <ServicesSection></ServicesSection>
             <CustomerSaysPage></CustomerSaysPage>
             <FAQ></FAQ>
+            <NewsletterSection></NewsletterSection>
         </div>
     );
 };

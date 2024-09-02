@@ -5,9 +5,9 @@ import { IoIosArrowForward } from "react-icons/io";
 const FAQ = () => {
     return (
         <div>
-            <div className="text-center mb-14">
+            <div className="text-center mb-14 mt-20">
                 <h1 className="text-4xl font-semibold">FAQ</h1>
-                <p className="text-base">Problems trying to resolve the conflict between <br />
+                <p className="text-base lg:mt-8">Problems trying to resolve the conflict between <br />
                     the two major realms of Classical physics: Newtonian mechanics </p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-8">
