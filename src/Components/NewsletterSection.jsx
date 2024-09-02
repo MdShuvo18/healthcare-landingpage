@@ -6,8 +6,8 @@ const NewsletterSection = () => {
             <div>
                 <h1 className='text-3xl font-bold'>Subscribe to our newsletter</h1>
             </div>
-            <div className='mt-3 space-x-6'>
-                <input type="text" className='w-96 px-6 py-4 rounded-full placeholder-black' placeholder='Enter your email' />
+            <div className='mt-3 flex flex-col md:flex-row justify-center gap-3'>
+                <input type="text" className='w-full md:w-96 px-6 py-4 rounded-full placeholder-black' placeholder='Enter your email' />
                 <button className='text-white font-bold bg-primary-cyan px-6 py-4 rounded-full'>Subscribe</button>
             </div>
         </div>
