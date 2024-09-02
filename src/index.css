@@ -16,7 +16,10 @@ main {
   margin: 0 auto;
 }
 
-.active {
-  border-bottom: 5px;
-  border-color: #007E85;
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 }
