@@ -12,6 +12,7 @@ export default {
         "yellow-green" : "#6EAB36",
         "section-text-color": "rgba(0, 126, 133, 1)",
         "all-btn-color": "rgba(0, 126, 133, 1)",
+        "FAQ-text-color":"rgba(37, 43, 66, 1)",
       },
       fontFamily: {
         lato : ["Lato", "sans-serif"]
