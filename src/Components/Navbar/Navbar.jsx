@@ -5,8 +5,8 @@ const Navbar = () => {
         { title: "Home", path: "/" },
         { title: "Services", path: "/services" },
         { title: "Contact us", path: "/contact" },
-        { title: "Help", path: "/help" },
-        { title: "Blogs", path: "/blogs" },
+        // { title: "Help", path: "/help" },
+        // { title: "Blogs", path: "/blogs" },
     ];
 
     return (
