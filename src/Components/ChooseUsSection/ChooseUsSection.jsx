@@ -9,7 +9,7 @@ const ChooseUsSection = () => {
             <div className='space-y-12 flex flex-col justify-center'>
                 <div className='space-y-4'>
                     <h1 className='text-4xl font-bold'>You have lots of reasons to choose us</h1>
-                    <p className='text-secondary-gray'>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
+                    <p className='text-secondary-gray md:w-2/3'>At Healthcare Website Name, we go beyond the basics to offer you a wide range of services tailored to your needs. From personalized care plans to state-of-the-art facilities, we are dedicated to providing you with the best healthcare experience possible. Choose us for more options, more care, and more reasons to trust your health with us.</p>
                 </div>
                 <div className='flex gap-4'>
                     <button className='px-5 py-3 md:px-9 md:py-6 bg-primary-cyan text-white rounded-full font-bold md:text-lg'>Get started</button>

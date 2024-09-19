@@ -37,7 +37,7 @@ const Testimonial = () => {
             <div>
                 <Headings
                     mainText={"Testimonial"}
-                    subText={"Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero accumsan."}
+                    subText={"Real Stories, Real Experiences—Hear What Our Patients Have to Say."}
                 ></Headings>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-7 mt-8 md:mt-12 justify-items-center'>
