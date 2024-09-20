@@ -53,7 +53,7 @@ const ContactPage = () => {
                         </div>
                         <div className='flex items-center gap-2'>
                             <input type="checkbox" />
-                            <p>I accept the terms</p>
+                            <p className='text-lg'>I accept the terms</p>
                         </div>
                         <div className='flex justify-center'>
                             <input type="submit" value="Submit" className='bg-primary-cyan text-white px-32 py-4 rounded-lg '/>

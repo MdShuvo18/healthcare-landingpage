@@ -48,7 +48,7 @@ const ServicesSection = () => {
             <div>
                 <Headings
                     mainText={"Services we provide"}
-                    subText={"Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero accumsan."}
+                    subText={"Comprehensive Care, Exceptional Services—All in One Place."}
                 ></Headings>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 mt-8 md:mt-16 gap-6 justify-items-center'>

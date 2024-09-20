@@ -51,7 +51,7 @@ const TeamMembers = () => {
   return (
     <div className="container mx-auto">
       <Headings mainText={"Meet Our Team Members"}></Headings>
-      <h3 className="text-center md:mt-4 mt-2">Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero accumsan. </h3>
+      <h3 className="text-center md:mt-4 mt-2">Dedicated Professionals, Compassionate Care—Get to Know the Faces Behind Our Excellence.</h3>
 
       <div className="grid md:grid-cols-3 grid-cols-1 justify-items-center gap-8 md:mt-14 mt-5">
 
